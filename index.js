@@ -22,7 +22,7 @@ function deleteFromDriverByKey(driver, key, value){
  function destructivelyDeleteFromDriverByKey(driver, key, value){
   let newDriver=driver[key]=value;
   delete newDriver;
-  return newDriver;
+ return driver;
 
 
  }
